@@ -23,7 +23,7 @@ SECRET_KEY = 'jn&$fn^%@j_k!z&2%@3pn7jtb)q472^osa)g@mzu8u@#3-n3)x'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
-
+SESSION_EXPIRE_AT_BROWSER_CLOSE = True
 ALLOWED_HOSTS = []
 
 
@@ -132,4 +132,5 @@ USE_TZ = True
 STATIC_URL = '/static/'
 LOGIN_URL = '/rango/login/'
 LOGIN_REDIRECT_URL = '/rango/'
+
 
